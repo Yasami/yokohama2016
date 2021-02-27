@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  margin-top: 80px;
+  margin-right: 0;
+  margin-bottom: 70px;
+  margin-left: 0;
+}
+
+.row.page-title h1 {
+  padding-left: 30px;
+}
+
+.row.indent {
+  padding-left: 60px;
+}
+
+.jumbotron.special {
+  position: relative;
+  min-width: 380px;
+  padding: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+  color: #f3f3f3;
+  text-align: center;
+  text-shadow: 1px 2px 6px #111;
+  background-image: url("../img/yokohama.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+@media screen and (min-width: 480px) {
+  .jumbotron.special .outline {
+    margin-top: 60px;
+  }
+}
+.jumbotron.special h1,
+.jumbotron.special .h1 {
+  font-family: Montserrat, sans-serif;
+}
+
+.program .row h2 {
+  font-size: 24px;
+  text-align: center;
+}
+.program .row .line {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  line-height: 3em;
+  border-bottom-color: #999;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.program .row .line .event {
+  position: absolute;
+  left: 0;
+  text-align: left;
+}
+.program .row .line .time {
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+section.section {
+  padding: 50px 0;
+}
+section.section.section-default {
+  background-color: #fcfcfc;
+}
+section.section .subtitle {
+  margin-bottom: 24px;
+  text-align: center;
+}
+section.section .subtitle h2 {
+  margin-top: 0;
+}
+
+.result .black {
+  color: #000;
+}
+.result .red {
+  color: #f00;
+}
+.result .green {
+  color: #0c0;
+}
+.result .blue {
+  color: #00f;
+}
+.result .blank {
+  content: none;
+}
+.result caption.category {
+  font-size: 24px;
+  color: #399;
+}
+.result .cutline {
+  border-bottom: 2px double #666;
+}
+.result .broadcutline {
+  text-align: center;
+  border: 1px groove #666;
+}
+
+.main .main-box {
+  text-align: center;
+}
+.main .main-box .main-circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 60px;
+  line-height: 100px;
+  color: #fff;
+  border-radius: 100%;
+}
+.main .main-box .main-circle.program {
+  background-color: #8e8ae6;
+}
+.main .main-box .main-circle.start {
+  background-color: #5e8ae6;
+}
+.main .main-box .main-circle.course {
+  background-color: #b8e68a;
+}
+.main .main-box .main-circle.invitation {
+  background-color: #e68a8a;
+}
+.main .main-box .main-circle.results {
+  background-color: #e6dc8a;
+}
+.main .main-box .main-description h4 {
+  text-align: center;
+}
+.main .main-box .main-description p {
+  text-align: justify;
+}
+
+.embed-container {
+  position: relative;
+  height: 0;
+  padding-top: 30px;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 20px 0;
+  color: #ecf0f1;
+  background-color: #06abc8;
+}
+footer .copyright {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bootstrap-default {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285;
+}
+.bootstrap-default > h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
